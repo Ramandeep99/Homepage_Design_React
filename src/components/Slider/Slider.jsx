@@ -47,7 +47,7 @@ const Slider = (props) => {
               key={ind}
             >
               {ind === activeImageNum && (
-                <img src={currentSlide.url} className="image" />
+                <img alt="img" src={currentSlide.url} className="image" />
               )}
             </div>
           );

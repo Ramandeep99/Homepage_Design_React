@@ -11,7 +11,7 @@ const Footer = () => {
         Images for representation purposes only. All Rights Reserved.
       </p>
       <div>
-        <img className="salesImg" src="https://www.prestigegroupkeys.in/images/logo/logo.png" />
+        <img alt="img" className="salesImg" src="https://www.prestigegroupkeys.in/images/logo/logo.png" />
       </div>
     </div>
   );

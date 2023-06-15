@@ -4,7 +4,7 @@ import './about.css';
 const AboutSection = () => {
   return (
     <div className="about">
-      <img className="logo" src="https://www.prestigelevenderfields.in/blog/images/prestige/prestige-group.webp" />
+      <img alt="img" className="logo" src="https://www.prestigelevenderfields.in/blog/images/prestige/prestige-group.webp" />
       <h1 className="develop">ABOUT DEVELOPER</h1>
       <p className="text">
         <hr />

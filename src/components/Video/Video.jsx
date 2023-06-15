@@ -7,7 +7,7 @@ const Video = () => {
       <h2 className="video_heading">Virtual Tour</h2>
       <div className="video">
         <img
-          className="imgg"
+          className="imgg" alt="img"
           src="https://www.prestigeconstructions.com//admin/uploads/projects/prestige-dew-drops/gallery/prestige-dew-drops-02.jpeg"
         />
         <div className="logos">

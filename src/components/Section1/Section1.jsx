@@ -13,9 +13,9 @@ function Section1() {
         Become a Pride Resident of the Finest Locale of Gurugram
       </p>
       <div className="imgDiv">
-        <img
+        <img 
           src="https://prestigegroupprojects.co.in/dew-drops/assets/img/about-img.jpg"
-          alt="image"
+          alt="ima"
         />
         <Container>
           <Row>
