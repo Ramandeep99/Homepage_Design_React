@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Slider from './components/Slider/Slider';
 import Section1 from './components/Section1/Section1';
-import Section_Overview from './components/Section_Overview/Overview';
+import Section_Overview from './components/SectionOverview/Overview';
 import Amenities from './components/Amenities/Amenities';
 import PricingDetails from './components/PricingDetails/PricingDetails';
 import SitePlans from './components/SiteFloorPlans/SitePlans';
@@ -29,23 +29,7 @@ function App() {
       <AboutSection/>
       <Form/>
       <Footer/>
-      {/* 
-        Navbar
-        Registeration Form
-        Fixed registeration form
-        Booking form
-        Slider
-        Section 1
-        Section 2 (Overview)
-        Section 3 (Amenities)
-        Section 4 (Pricing Details)
-        Section 5 (Site and Floor Plans)
-        Section 6 (Locations)
-        Section 7 (Video)
-        Section 8 (About Developer)
-        Section 9 (Contact Form)
-        Section 10 (Footer)
-      */}
+
     </div>
   );
 }
