@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Slider from './components/Slider/Slider';
 import Section1 from './components/Section1/Section1';
-import Section_Overview from './components/SectionOverview/Overview';
+import SectionOverview from './components/SectionOverview/Overview';
 import Amenities from './components/Amenities/Amenities';
 import PricingDetails from './components/PricingDetails/PricingDetails';
 import SitePlans from './components/SiteFloorPlans/SitePlans';
@@ -20,7 +20,7 @@ function App() {
       <Navbar setSidebar={setSidebar}/>
       <Slider sidebar={sidebar}/>
       <Section1/>
-      <Section_Overview/>
+      <SectionOverview/>
       <Amenities />
       <PricingDetails/>
       <SitePlans/>

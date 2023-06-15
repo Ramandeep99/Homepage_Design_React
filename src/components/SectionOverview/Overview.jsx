@@ -1,7 +1,7 @@
 import React from "react";
 import './overview.css';
 
-export default function Section_Overview() {
+export default function SectionOverview() {
   return (
     <div className="overview_main">
       <h2 className="overview_heading">OVERVIEW</h2>
