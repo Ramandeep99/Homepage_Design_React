@@ -2,7 +2,7 @@ h1 {
     text-align: center;
 }
 
-form {
+.form3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 30px;

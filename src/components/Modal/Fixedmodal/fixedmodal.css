@@ -1,0 +1,99 @@
+.contact-bar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4caf50;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.fixedcontact-icon {
+    margin-right: 5px;
+}
+
+.contact-icon-icon {
+    color: white;
+}
+
+.fixedcontact-number {
+    margin-top: 3px;
+    font-weight: bold;
+}
+
+.toggle-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.toggle-modal {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.fixedmodal {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: white;
+    /* padding: 20px; */
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    width: 400px;
+}
+
+.fixedtop-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(98, 95, 95);
+    color: white;
+    font-size: 20px;
+    height: 46px;
+}
+
+.second-line {
+    background-color: #6fd271;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.second-line p {
+    font-size: 18px;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form2Inp {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.fixedmodalBtn {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 50% !important;
+    margin: auto !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.fixedmodalBtn:hover {
+    background-color: #45a049;
+}

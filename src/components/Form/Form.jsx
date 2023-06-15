@@ -27,7 +27,7 @@ function Form() {
       <div className="form_wrapper">
       <h1 style={{marginBottom:'30px', fontWeight:'500'}}>CONTACT FORM</h1>
       <div className="form-container">
-        <form>
+        <form className="form3">
           <input
             className={`inputName ${focus === "input1" ? "focused" : ""}`}
             type="text"
