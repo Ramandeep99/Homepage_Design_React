@@ -1,0 +1,30 @@
+.sitePlans_heading {
+    text-align: center;
+    margin: 30px;
+}
+
+.sitePlan_card {
+    box-shadow: 1px 2px 2px #888888;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: #b48530;
+}
+
+.sitePlan_card img {
+    width: 100%;
+    height: auto;
+}
+
+.sitePlan_card p {
+    text-align: center;
+    padding: 4px;
+    margin: 8px;
+    font-size: 22px;
+    color: white;
+}
+
+.sitePlan_card img:hover {
+    transform: scale(1.1);
+    filter: opacity(0.6);
+    transition: 1s ease;
+}

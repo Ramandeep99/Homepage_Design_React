@@ -1,0 +1,41 @@
+.about {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 20% 70%;
+}
+
+.logo {
+    margin-top: 30px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 80%;
+    height: 80%;
+}
+
+.develop {
+    margin-bottom: 0px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.text {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+@media screen and (max-width: 1000px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+hr {
+    height: 8px;
+    background-color: skyblue;
+    border: none;
+}

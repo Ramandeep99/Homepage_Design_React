@@ -1,0 +1,32 @@
+.amenities {
+    margin: 50px;
+}
+
+.amenities_heading {
+    text-align: center;
+}
+
+.amenities_card {
+    box-shadow: 1px 2px 2px #888888;
+    /* border-radius: 5%; */
+    margin: 15px 5px;
+    overflow: hidden;
+}
+
+.amenities_card img {
+    /* border-radius: 5%; */
+    width: 100%;
+    height: auto;
+}
+
+.amenities_card p {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.amenities_card img:hover {
+    transform: scale(1.1);
+    filter: opacity(0.5);
+    transition: 1s ease;
+}

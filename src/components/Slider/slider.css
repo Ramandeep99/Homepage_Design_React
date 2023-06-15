@@ -1,0 +1,56 @@
+.image-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.image {
+    width: 100%;
+    /* height: 100vh; */
+    object-fit: contain;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.left {
+    color: white;
+    position: absolute;
+    left: 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.right {
+    color: white;
+    position: absolute;
+    right: 3rem;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.currentSlide {
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.currentSlide.active {
+    opacity: 1;
+    transition: 1s ease;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .image {
+        height: 100%;
+    }
+    .left.open,
+    .right.open {
+        display: none;
+    }
+}

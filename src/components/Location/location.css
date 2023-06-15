@@ -1,0 +1,48 @@
+.location-container {
+    margin: 40px;
+}
+
+.location_heading {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.location_textSection_Icon {
+    width: 20px;
+    height: 20px;
+}
+
+.location_textSection_text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.loaction_textSection_wrapper {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 8px;
+    /* justify-content: flex-start;
+    flex-shrink: 0 !important;
+    flex-grow: 1 !important; */
+}
+
+.icon_wrapper {
+    margin-right: 8px;
+    flex-shrink: 0 !important;
+}
+
+.text_wrapper {
+    flex-grow: 1 !important;
+}
+
+.location_api_div {
+    margin-bottom: 40px;
+}
+
+.location_api_div img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

@@ -1,0 +1,45 @@
+.imgg {
+    width: 60%;
+    height: 40%;
+}
+
+.play {
+    width: 90px;
+    height: 90px;
+}
+
+.logos {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.tour {
+    margin-top: 30px;
+    font-size: 24px;
+    text-shadow: 2px 3px black;
+}
+
+.video {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.span2 {
+    font-size: 80px !important;
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+}
+
+.video_heading {
+    text-align: center;
+    margin: 40px;
+}
